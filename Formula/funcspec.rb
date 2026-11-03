@@ -9,30 +9,30 @@
 class Funcspec < Formula
   desc "Command-line interface for FuncSpec"
   homepage "https://funcspec.net"
-  version "0.2.46" # replaced by release workflow
+  version "0.2.47" # replaced by release workflow
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/narbs/funcspec-cli/releases/download/v#{version}/funcspec-v#{version}-x86_64-apple-darwin.zip"
-      sha256 "15fe4fa7e30aad8124638fe7ada6980ada3649c15871604e142602f76a8b0f72"
+      sha256 "6eeb16a8e9a30b0ced45d430ba525de06b5e753ecf8c38faf015c2044af91d4a"
     end
 
     on_arm do
       url "https://github.com/narbs/funcspec-cli/releases/download/v#{version}/funcspec-v#{version}-aarch64-apple-darwin.zip"
-      sha256 "e7d20da0a094cbb183c60fa387798161a80ebdede3f6815632eaf2f7fd6669c3"
+      sha256 "37c739738c30156ceb710986394b9a24f95637ab9032c31d8d43c5a6f492a41a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/narbs/funcspec-cli/releases/download/v#{version}/funcspec-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "985dff13b4a4dfbdfe353ad668d34c992d36718104d80f9df1abe2fde6a3a370"
+      sha256 "acec468e93b27baad032b28a1f0286a4b47af079f432498c4e81045ba163c21f"
     end
 
     on_arm do
       url "https://github.com/narbs/funcspec-cli/releases/download/v#{version}/funcspec-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6b3702ba93fbd9bc02676ad535f977c00ee6c6afe4d2b275716fe37d0b0a1012"
+      sha256 "9fdcc709fd6c0145b980e185c5a7436f8604419563055e5d7946264e3db53be2"
     end
   end
 
