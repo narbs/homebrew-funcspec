@@ -15,24 +15,24 @@ class Funcspec < Formula
   on_macos do
     on_intel do
       url "https://github.com/narbs/funcspec-cli/releases/download/v#{version}/funcspec-v#{version}-x86_64-apple-darwin.zip"
-      sha256 "7a86584cc1b3ff5bdda06ebaca6a6927172b667cb9fe40323a289c2b3d35109f"
+      sha256 "5412ff0b063811f9c526c2eb832f0d1f9ddf3c2ae8ebe6e05f21ded37922db8f"
     end
 
     on_arm do
       url "https://github.com/narbs/funcspec-cli/releases/download/v#{version}/funcspec-v#{version}-aarch64-apple-darwin.zip"
-      sha256 "fe0cb00ccacfa3c73f50ddef7fbf251db714d6b2d9190aa6a0731aa9c46b3aeb"
+      sha256 "5824398a59265afcd83b04e74fe767ed57f2f19ef31f4508515acd25e28ea732"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/narbs/funcspec-cli/releases/download/v#{version}/funcspec-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "fed0dc62db7198e916ebe2fea50f0e2cc8d611c4ef68b3bbd34b73f02b550f99"
+      sha256 "dbde74c82d979a55548425f22ad37d85de7ffaed9baada6110442e16118f02a7"
     end
 
     on_arm do
       url "https://github.com/narbs/funcspec-cli/releases/download/v#{version}/funcspec-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f438164dc6734c424beb1b5e5445e0494aa2d5c73f2e12c5b76e95f2fe570b01"
+      sha256 "68e79c38c65092635e8fbdf296c279317001661f7ceea0bfe063d5b43f2403f6"
     end
   end
 
